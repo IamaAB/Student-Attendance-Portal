@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".Dashbaord">
+
+
+
+    <LinearLayout
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F5F5F5"
+
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STUDENT ACADEMIC DETAIL"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1B4A82"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#999999"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/studentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textColor="#1B4A82"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Program"
+            android:textColor="#999999"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/studentProgram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BS Computer Science"
+            android:textColor="#1B9C9C"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester"
+            android:textColor="#999999"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/studentSemester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Summer 2024"
+            android:textColor="#F7B731"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Program Level"
+            android:textColor="#999999"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/studentProgramLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bachelor"
+            android:textColor="#1B9C9C"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Batch"
+            android:textColor="#999999"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/studentBatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F2020266"
+            android:textColor="#1B4A82"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CGPA"
+            android:textColor="#999999"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/studentCGPA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.65"
+            android:textColor="#4CAF50"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit Hours"
+            android:textColor="#999999"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/studentCreditHoursMax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19"
+            android:textColor="#F44336"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit Hours"
+            android:textColor="#999999"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/studentCreditHoursRegistered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#1B4A82"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Completed Credit Hours"
+            android:textColor="#999999"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/studentCreditHoursCompleted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="126"
+            android:layout_marginBottom="16dp"
+            android:textColor="#1B4A82"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Required Credit Hours"
+            android:textColor="#999999"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/registercreidthours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="132"
+            android:textColor="#1B4A82"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

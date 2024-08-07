@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Dashboard"
+         android:iconTint="@color/darkblue"
+        android:id="@+id/dashbaord"
+        android:icon="@drawable/baseline_dashboard_24"/>
+    <item android:title="Courses"
+        android:id="@+id/courses"
+        android:iconTint="@color/darkblue"
+
+        android:icon="@drawable/baseline_folder_open_24"/>
+    <item android:title="Attandance"
+        android:id="@+id/attandance"
+        android:icon="@drawable/baseline_edit_calendar_24"/>
+    <item android:title="Logout"
+        android:id="@+id/logout"
+        android:icon="@drawable/baseline_logout_24"/>
+</menu>

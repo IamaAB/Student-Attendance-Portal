@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "646030201745",
+    "firebase_url": "https://visioattend-bc454-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "visioattend-bc454",
+    "storage_bucket": "visioattend-bc454.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646030201745:android:d6b78bfd37843f0bd48030",
+        "android_client_info": {
+          "package_name": "com.example.student_portal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3UVKcfT7dTVZlERM02wMzE1J5Ug86SCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
