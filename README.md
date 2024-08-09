@@ -24,3 +24,9 @@ Connect your Android device to your computer or set up an Android Virtual Device
 
 **Step 7: Log In**
 Once the app is running on your device or emulator, log in with the credentials you have. The app should connect to Firebase and retrieve the necessary data.
+
+
+
+
+https://github.com/user-attachments/assets/e2e2dc57-3607-43ea-99a6-7330df75b54a
+
