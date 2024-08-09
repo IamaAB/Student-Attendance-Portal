@@ -4,7 +4,7 @@ Make sure you have Android Studio installed on your computer. You can download i
 
 **Step 2: Clone the GitHub Repository**
 Instead of extracting a zip file, you'll clone the project from GitHub. Open a terminal and run the following command:
-git clone 
+git clone https://github.com/IamaAB/Student-Attendance-Portal.git
 
 **Step 3: Open the Project in Android Studio**
 Open Android Studio. On the welcome screen, click on "Open an existing Android Studio project." Navigate to the directory where you cloned the GitHub repository and select the project folder.
