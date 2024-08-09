@@ -1,5 +1,4 @@
 
-#Student Portal App
 
 ## Step 1: Install Android Studio
 First, make sure you have Android Studio installed on your computer. It’s the main tool we’ll use to run the app. You can download it from the official Android Studio website.
